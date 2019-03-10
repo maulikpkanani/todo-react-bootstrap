@@ -73,8 +73,11 @@ class App extends Component {
 
 	render() {
 		return (
+			// whole container app
 			<div className="container">
+				{/*row */}
 				<div className="row">
+					{/*grid here we have col-10 md-col-8 mt-4 */}
 					<div className="col-10 mx-auto col-md-8 mt-4">
 						<h3 className="col-10 text-capitalize text-center">todo input</h3>
 						<TodoInput
